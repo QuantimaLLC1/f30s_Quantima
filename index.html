@@ -5,6 +5,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
 
 	<!-- Page title -->
 	<title>F30s project</title> 
@@ -20,10 +21,11 @@
 	<script type="text/javascript" src="./js/jquery.countdown.min.js"></script> <!-- Plugin for countdown on #inTransit page -->
 	<script type="text/javascript" src="./js/jquery.cropit.min.js"></script> <!-- Plugin for image uploading software -->
 	<script type="text/javascript" src="https://cdn.firebase.com/js/client/2.2.5/firebase.js"></script><!--   Functions for accessing Firebase -->
-	<script type="text/javascript" src="phonegap.js"></script> <!--Code required for Phonegap implementation --> 
+	<script type="text/javascript" src="cordova.js"></script> <!--Code required for Phonegap implementation --> 
 	<script type="text/javascript" src="https://checkout.stripe.com/checkout.js"></script>
 	<script type="text/javascript" src="./js/f30s.js"></script> <!-- Code specific to this page --> 
 	<script type="text/javascript" src="./js/unit_test.js"></script> <!-- Code containing the unit test --> 
+
 </head> 
 <body>
 <!-- ************************************ START #SPLASH *************************************** -->
